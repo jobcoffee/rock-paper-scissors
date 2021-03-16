@@ -15,9 +15,9 @@ function playerChoice(){
   }
   playerChoice();
 
-   function computerChoice(){
-      rps = choices[Math.floor(Math.random()* choices.length)];
-      return rps;
+function computerChoice(){
+   rps = choices[Math.floor(Math.random()* choices.length)];
+   return rps;
    }
    computerChoice();
 
